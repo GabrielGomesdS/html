@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+/*Aplicação de borda e configurações da borda no conteúdo*/
+header, main, aside, footer {
+    border: 1px solid black;
+    margin-bottom: 6px;
+}
+
+/*Configurções do cabeçalho*/
+header {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 120px;
+        padding-left: 1rem;
+        padding-right: 2rem;
+}
+
+/*Configurações do tamanho, formato e posição da imagem em relação às bordas*/
+img {
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 2em;
+}
+
+/*Configurações para a altura*/
+main, aside{
+    min-height: 250px;
+}
+
+/*Configurações para a seção 1*/
+main {
+    width: 62%;
+    float: left;
+    text-align: justify;
+    padding: 2em 3em 2em 2em;
+    padding-top: 50px;
+}
+
+/*Configurações para a seção 2*/
+aside {
+    text-align: center;
+    width: 25%;
+    float: right;
+    padding: 2em 3em 2em 2em;
+
+}
+
+/*Configurações para o rodapé*/
+footer {
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+} 
+
+.A1{
+    margin-bottom: 30px;
+}
+
+.A2{
+    margin-top: 35px;
+}
